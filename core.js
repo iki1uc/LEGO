@@ -1,11 +1,11 @@
 698869 – Engine‑Stations‑System
 
-POS (6)      = Position
-WECHSEL (9)  = Wechsel
-T (8)        = Zeit
-GO (8)       = Aktivierung
-LE (6)       = Abschluss
-Z (9)        = Ergebnis
+POS (6)
+WECHSEL (9)
+T (8)
+GO (8)
+LE (6)
+Z (9)
 
 Formel:
 698869 = pos → wechsel → t → go → le → z
