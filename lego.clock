@@ -1,0 +1,9 @@
+// CLOCK – Zeit-Engine mit T (Timer)
+
+export function T(step) {
+    return {
+        t: step,        // Zeitwert
+        plus: step + 1, // +(T)
+        minus: step - 1 // -(T)
+    };
+}
