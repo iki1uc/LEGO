@@ -1,11 +1,29 @@
-<hr>
-
-<h2>LEGO‑KERN</h2>
+<h2>698869 – Stations-System</h2>
 <pre>
-LEGO + LAGE = 0
-le(x(go(lego)tet)y)riz = 1
-T = Timer
-+(T) = Vorwärts
--(T) = Rückwärts
-LEGO.clock = aktiv
+POS (6)
+WECHSEL (9)
+T (8)
+GO (8)
+LE (6)
+Z (9)
+
+Formel:
+698869 = pos → wechsel → t → go → le → z
+
+Pipeline:
+POS → WECHSEL → T → GO → LE → Z
+
+Cache:
+pos.cache
+wechsel.cache
+t.cache
+go.cache
+le.cache
+z.cache
+
+BENCH:
+BENCH-POS
+BENCH-WECHSEL
+BENCH-T
+BENCH-Z
 </pre>
