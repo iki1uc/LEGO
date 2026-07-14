@@ -1,0 +1,10 @@
+6 = pos
+9 = wechsel
+8 = t
+8 = go
+6 = le
+9 = z
+x=X
+y=Y
+z=Z
+t=T
