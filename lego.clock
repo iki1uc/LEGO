@@ -1,9 +1,11 @@
-// CLOCK – Zeit-Engine mit T (Timer)
+// LEGO.clock – RAW-Zeitkern für LEGO, LAGE, TET, RIZ
 
 export function T(step) {
     return {
-        t: step,        // Zeitwert
-        plus: step + 1, // +(T)
-        minus: step - 1 // -(T)
+        t: step,          // Zeitwert
+        plus: step + 1,   // +(T)
+        minus: step - 1,  // -(T)
+        zero: 0,          // LEGO + LAGE = 0
+        one: 1            // le(x(go(lego)tet)y)riz = 1
     };
 }
